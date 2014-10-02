@@ -12,7 +12,7 @@ lena=misc.imread("madh.jpg",1)
 #print lena[100:103, 20:23]
 
 #different color schemes-- gray, hot, summer, spectral,Blues,Greens.. etc
-plt.imshow(lena,cmap=plt.cm.summer)
+plt.imshow(lena,cmap=plt.cm.hot)
 plt.colorbar() 
 
 #plt.imshow(lena);
